@@ -13,7 +13,7 @@ Fireside Kubernetes - live demo cheat sheet
 1. Show pod.yaml
 1. `kubectl create -f k8s/pod.yaml`
 1. `kubectl describe po hello-app`
-1. `k port-forward hello-app :8080`
+1. `kubectl port-forward hello-app 8080:8080`
 
 ## Create Service for Pod
 1. Show service.yaml
